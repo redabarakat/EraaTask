@@ -256,7 +256,7 @@ section .sub-heading .date {
 /* awards Section  */
 #awards .sub-heading ul li {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 10px;
   color: rgba(0, 0, 0, 0.5);
 }
