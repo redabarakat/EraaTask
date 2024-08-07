@@ -1,0 +1,52 @@
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  #about .heading {
+    font-size: 40px;
+  }
+}
+@media (min-width: 576px) {
+  #about .heading {
+    font-size: 60px;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .main-Section .navSide {
+    position: fixed;
+    background-color: rgb(189, 93, 56);
+    top: 0;
+    left: 0;
+    width: 23%;
+    height: 100vh;
+  }
+  .main-Section .navSide .top-nav {
+    display: none;
+  }
+  .main-Section .navSide .navSide-content {
+    display: flex;
+  }
+  .main-Section .mainContent {
+    padding-left: 23%;
+  }
+  #about .heading {
+    font-size: 90px;
+  }
+  /* experience section */
+  section .top-heading {
+    font-size: 50px;
+  }
+  section .sub-heading h3 {
+    font-size: 30px;
+  }
+  section .sub-heading .title {
+    font-size: 25px;
+  }
+}
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
